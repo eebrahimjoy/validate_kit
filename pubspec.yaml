@@ -1,8 +1,7 @@
 name: validate_kit
 description: >-
   A zero-dependency, fluent form validation toolkit for Dart and Flutter.
-  Chain readable rules for email, password, length, range, matching fields,
-  and custom logic with clean, localization-ready error messages.
+  Chain rules for email, password, length, range, and custom logic.
 version: 1.0.0
 repository: https://github.com/eebrahimjoy/validate_kit
 issue_tracker: https://github.com/eebrahimjoy/validate_kit/issues
