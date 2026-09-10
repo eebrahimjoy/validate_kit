@@ -1,6 +1,6 @@
-## 1.0.0
+## 1.0.1
 
-- Initial release.
+- Initial public release.
 - Fluent `FieldValidator` (aliased as `MultiValidator`) with chainable,
   short-circuiting validation rules.
 - Built-in rules: `required`, `email`, `minLength`, `maxLength`,
@@ -15,3 +15,4 @@
   `isStrongPassword`.
 - Fully documented public API, comprehensive unit tests, and a runnable
   Flutter example app.
+- Shortened the pubspec description to comply with pub.dev limits.
