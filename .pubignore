@@ -1,0 +1,6 @@
+# Files excluded from the published package (dart pub publish uses .pubignore,
+# not .gitignore, to decide what to ship).
+
+# Build caches and generated artifacts.
+build/
+.dart_tool/
