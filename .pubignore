@@ -1,6 +1,10 @@
 # Files excluded from the published package (dart pub publish uses .pubignore,
 # not .gitignore, to decide what to ship).
 
+# Demo GIFs are used only by the README (via GitHub raw URLs) and the example
+# app, so consumers should not download several MB on `pub get`.
+assets/
+
 # Build caches and generated artifacts.
 build/
 .dart_tool/

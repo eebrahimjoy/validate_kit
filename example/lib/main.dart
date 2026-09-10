@@ -15,7 +15,7 @@ class ValidateKitExampleApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ValidateKit Example',
+      title: 'validate_kit',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,

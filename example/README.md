@@ -1,17 +1,23 @@
 # validate_kit_example
 
-A new Flutter project.
+A runnable Flutter app demonstrating the
+[validate_kit](https://pub.dev/packages/validate_kit) package.
 
-## Getting Started
+## What it shows
 
-This project is a starting point for a Flutter application.
+- A full registration form built with `TextFormField` and fluent
+  `FieldValidator` chains: required checks, email, URL, integer, numeric range,
+  strong password, matching password confirmation, pattern, membership, and
+  length bounds.
+- A live playground that validates a single value as you type and displays the
+  returned error alongside the complete `validateAll()` error list.
+- Toggling aggregation to see how `validate()` combines every failing message.
 
-A few resources to get you started if this is your first Flutter project:
+## Running
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```sh
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app is configured for both iOS and Android.

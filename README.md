@@ -20,6 +20,15 @@ final error = FieldValidator()
     .validate(controller.text);
 ```
 
+## Demo
+
+The example app in action:
+
+![validate_kit demo](https://raw.githubusercontent.com/eebrahimjoy/validate_kit/main/assets/gif/example1.gif)
+
+The `example/` directory contains a full registration form and a live
+validation playground.
+
 ## Highlights
 
 - **Fluent chaining.** Compose rules in the order they should be evaluated.
