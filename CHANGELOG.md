@@ -1,6 +1,13 @@
 ## 1.0.1
 
-- Initial public release.
+- Compress the demo GIF so it renders in the README on GitHub and pub.dev.
+- Shorten the package description to satisfy pub.dev length limits.
+- Use `validate_kit` consistently as the example app's title.
+- No API changes.
+
+## 1.0.0
+
+- Initial release.
 - Fluent `FieldValidator` (aliased as `MultiValidator`) with chainable,
   short-circuiting validation rules.
 - Built-in rules: `required`, `email`, `minLength`, `maxLength`,
@@ -15,4 +22,3 @@
   `isStrongPassword`.
 - Fully documented public API, comprehensive unit tests, and a runnable
   Flutter example app.
-- Shortened the pubspec description to comply with pub.dev limits.
